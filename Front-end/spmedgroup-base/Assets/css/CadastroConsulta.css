@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.cabecalho_rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.cabecalho_rodape a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #666666;
+    text-decoration: unset;
+}
+
+.menu_header{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.logo{
+    width: 100px;
+}
+
+.banner{
+    background-image: url(../img/truco.png);
+    width: 100%;
+    height: 1460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 1%;
+    background-color: aqua;
+}
+
+label{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.box_pesquisa{
+    width: 1232px;
+    height: 1675px;
+    background-color: #00f7ff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.espacamento_box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.input_pesquisa{
+    background-color:#90C7FF;
+    border-radius: 30px;
+    border: none;
+    width: 512px;
+    height: 55px;
+    display: flex;
+}
+
+.espacamento_btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn_cadastrar{
+    width: 328px;
+    height: 82px;
+    background-color: #90C7FF;
+    border-radius: 30px;
+    border: none;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 510px;
+}

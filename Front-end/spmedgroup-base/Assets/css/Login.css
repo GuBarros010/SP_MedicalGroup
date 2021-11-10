@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #90C7FF;
+}
+
+.login{
+    display: flex;
+}
+
+.posicionamento{
+    height: 0%;
+    width: 62%;
+}
+
+.bloco_login{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 4%;
+}
+
+h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 72px;;
+    color: black;
+}
+
+.input_login{
+    width: 525px;
+    height: 70px;
+    margin-left: 5%;
+    background: #ffffff;
+    font-size: 28px;
+    border: none;
+    color: rgb(2, 2, 2);
+}
+
+.input_login::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+
+.login_senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 26%;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 280px;
+}
+
+.btn_login{
+    border-radius: 30px;
+    width: 600px;
+    background: #90C7FF;
+}
+
+.btn_entrar{
+    border-radius: 10px;
+    width: 530px;
+    margin-left: 15px;
+    font-size: 30px;
+    
+}
+
+.mudar_senha{
+    font-size: 25px;
+    color: #666666;
+    margin-left: 25px;
+}
